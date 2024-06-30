@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseMessaging.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenFetchOperation.m \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenFetchOperation.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingTokenOperation.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingCode.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingConstants.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingDefines.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingLogger.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/FIRMessagingUtilities.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/NSError+FIRMessaging.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Token/FIRMessagingCheckinPreferences.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRComponent.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRDependency.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIRLogger.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseCore/Extension/FIROptionsInternal.h

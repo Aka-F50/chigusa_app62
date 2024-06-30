@@ -1,0 +1,100 @@
+dependencies: \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_messaging.build/module.modulemap \
+  /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_messaging-14.6.5/macos/Classes/FLTFirebaseMessagingPlugin.m \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/firebase_messaging/firebase_messaging-prefix.pch \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/GoogleUtilities.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/GoogleUtilities/GoogleUtilities-umbrella.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULAppDelegateSwizzler.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULApplication.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/AppDelegateSwizzler/Public/GoogleUtilities/GULSceneDelegateSwizzler.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorable.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorage.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULHeartbeatDateStorageUserDefaults.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainStorage.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULKeychainUtils.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULNetworkInfo.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULSecureCoding.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/GULURLSessionDataResponse.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Environment/Public/GoogleUtilities/NSURLSession+GULPromises.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLogger.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Logger/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/NSData+zlib/Public/GoogleUtilities/GULNSData+zlib.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULMutableDictionary.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetwork.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkConstants.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkLoggerProtocol.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkMessageCode.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Network/Public/GoogleUtilities/GULNetworkURLSession.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/Reachability/Public/GoogleUtilities/GULReachabilityChecker.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/GoogleUtilities/GoogleUtilities/UserDefaults/Public/GoogleUtilities/GULUserDefaults.h \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_core.build/module.modulemap \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppLifecycleDelegate.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h \
+  /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseCore.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/FirebaseCore/FirebaseCore-umbrella.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FirebaseCore.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/firebase_core/firebase_core-umbrella.h \
+  /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_core-2.15.0/macos/Classes/FLTFirebaseCorePlugin.h \
+  /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_core-2.15.0/macos/Classes/FLTFirebasePlugin.h \
+  /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_core-2.15.0/macos/Classes/messages.g.h \
+  /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_core-2.15.0/macos/Classes/FLTFirebasePluginRegistry.h \
+  /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_messaging-14.6.5/macos/Classes/FLTFirebaseMessagingPlugin.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Headers/Public/Firebase/Firebase.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FirebaseFirestore.h \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseFirestore.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/FirebaseFirestore/FirebaseFirestore-umbrella.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRAggregateQuery.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRAggregateSource.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRAggregateQuerySnapshot.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRCollectionReference.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRQuery.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFirestoreSource.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRListenerRegistration.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRDocumentChange.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRDocumentReference.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRDocumentSnapshot.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFieldPath.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFieldValue.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFilter.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFirestore.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFirestoreErrors.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRFirestoreSettings.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRGeoPoint.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRLoadBundleTask.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRLocalCacheSettings.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRQuerySnapshot.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRSnapshotMetadata.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRTimestamp.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRTransaction.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRTransactionOptions.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseFirestore/Firestore/Source/Public/FirebaseFirestore/FIRWriteBatch.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FirebaseInstallations.h \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseInstallations.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/FirebaseInstallations/FirebaseInstallations-umbrella.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallations.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FirebaseMessaging.h \
+  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/FirebaseMessaging.build/module.modulemap \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/FirebaseMessaging/FirebaseMessaging-umbrella.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FIRMessaging.h \
+  /Users/akari.f/Downloads/otamesi/macos/Pods/FirebaseMessaging/FirebaseMessaging/Sources/Public/FirebaseMessaging/FIRMessagingExtensionHelper.h
