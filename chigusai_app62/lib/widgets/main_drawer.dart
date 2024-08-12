@@ -21,7 +21,7 @@ class MainDrawer extends ConsumerWidget {
         const DrawerHeader(
           decoration: BoxDecoration(color: AppColors.themeColor),
           child: Text(
-            "第61回千種祭",
+            "第62回千種祭",
             style: TextStyle(color: AppColors.lightText1, fontSize: 25),
           ),
         ),

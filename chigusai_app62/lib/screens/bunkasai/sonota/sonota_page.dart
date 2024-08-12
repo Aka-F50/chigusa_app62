@@ -27,6 +27,7 @@ class SonotaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const String saikoshiInfo = SonotaData.saikoshiInfo;
+     const String ennitiInfo = SonotaData.ennitiInfo;
     const List<EventMerchandiseDetailData> eventMerchandiseList = SonotaData.eventMerchandiseList;
     const String chigumaInfo = SonotaData.chigumaInfo;
     return Scrollbar(
@@ -39,6 +40,9 @@ class SonotaPage extends StatelessWidget {
               const Text("再煌市", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
               const SizedBox(height: 5),
               const Text(saikoshiInfo),
+              const Text("縁日", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+              const SizedBox(height: 5),
+              const Text(ennitiInfo),
               const SizedBox(height: 20),
               const Text("学祭グッズ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
               const SizedBox(height: 5),

@@ -1,29 +1,29 @@
 dependencies: \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/crypto/x509/i2d_pr.c \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/BoringSSL-GRPC/BoringSSL-GRPC-prefix.pch \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/asn1.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/base.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/is_boringssl.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/opensslconf.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/boringssl_prefix_symbols.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/bio.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/buffer.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/buf.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/err.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/ex_data.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/stack.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/type_check.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/thread.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/bn.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/ec_key.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/ec.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/engine.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/evp.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/evp_errors.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/aead.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/base64.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/cipher.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/digest.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/nid.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/rsa.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/BoringSSL-GRPC/src/include/openssl/dsa.h
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/crypto/x509/i2d_pr.c \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/Target\ Support\ Files/BoringSSL-GRPC/BoringSSL-GRPC-prefix.pch \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/asn1.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/base.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/is_boringssl.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/opensslconf.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/boringssl_prefix_symbols.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/bio.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/buffer.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/buf.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/err.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/ex_data.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/stack.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/type_check.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/thread.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/bn.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/ec_key.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/ec.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/engine.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/evp.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/evp_errors.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/aead.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/base64.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/cipher.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/digest.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/nid.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/rsa.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/BoringSSL-GRPC/src/include/openssl/dsa.h

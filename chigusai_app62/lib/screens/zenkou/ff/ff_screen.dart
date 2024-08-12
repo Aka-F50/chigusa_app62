@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:chigusai_app/data/zenkokikaku/ff_data.dart';
 
-import 'hanabi_screen.dart';
 
 class FFScreen extends StatelessWidget {
   static const routeName = "/ff-screen";
@@ -10,9 +9,9 @@ class FFScreen extends StatelessWidget {
 
   Widget _buildFFCard(BuildContext context, FFDetailData ffDetailData) {
     void Function()? onTap;
-    if (ffDetailData.title.contains("花火")) {
-      onTap = () => Navigator.of(context).pushNamed(HanabiScreen.routeName);
-    }
+    //if (ffDetailData.title.contains("花火")) {
+      //onTap = () => Navigator.of(context).pushNamed(HanabiScreen.routeName);
+   // }
     return Card(
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 8),
@@ -26,7 +25,7 @@ class FFScreen extends StatelessWidget {
             ffDetailData.title,
             style: const TextStyle(fontSize: 20),
           ),
-          trailing: onTap != null ? const Icon(Icons.arrow_forward, color: Colors.grey) : null,
+          
         ),
       ),
     );
@@ -99,16 +98,16 @@ class FFScreen extends StatelessWidget {
                   },
                 ),
                 const SizedBox(height: 100),
-                const SizedBox(width: double.infinity, child: Text("マイムマイム隊形図", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500))),
+                const SizedBox(width: double.infinity, child: Text("千種生の主張", style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500))),
                 Padding(
                   padding: const EdgeInsets.all(10),
                   child: GestureDetector(
-                    onTap: () => _showImage(context, "assets/images/zenkou/mime.jpg"),
+                    onTap: () => _showImage(context, "assets/images/zenkou/ff.jpg"),
                     child: Container(
                       margin: const EdgeInsets.symmetric(horizontal: 15),
                       decoration: const BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(3))),
                       clipBehavior: Clip.antiAlias,
-                      child: Image.asset("assets/images/zenkou/mime.jpg"),
+                      child: Image.asset("assets/images/zenkou/ff.jpg"),
                     ),
                   ),
                 ),

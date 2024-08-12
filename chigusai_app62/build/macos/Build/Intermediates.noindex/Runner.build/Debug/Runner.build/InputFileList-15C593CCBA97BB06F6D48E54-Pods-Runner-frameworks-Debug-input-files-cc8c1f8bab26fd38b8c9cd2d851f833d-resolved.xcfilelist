@@ -1,0 +1,20 @@
+/Users/akari.f/github/chigusai_app62/macos/Pods/Target Support Files/Pods-Runner/Pods-Runner-frameworks.sh
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/BoringSSL-GRPC/openssl_grpc.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/FirebaseCore/FirebaseCore.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/FirebaseCoreInternal/FirebaseCoreInternal.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/FirebaseFirestore/FirebaseFirestore.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/FirebaseInstallations/FirebaseInstallations.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/FirebaseMessaging/FirebaseMessaging.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/GoogleDataTransport/GoogleDataTransport.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/GoogleUtilities/GoogleUtilities.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/PromisesObjC/FBLPromises.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/abseil/absl.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/audio_session/audio_session.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/flutter_local_notifications/flutter_local_notifications.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/gRPC-C++/grpcpp.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/gRPC-Core/grpc.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/just_audio/just_audio.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/leveldb-library/leveldb.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/nanopb/nanopb.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/path_provider_foundation/path_provider_foundation.framework
+/Users/akari.f/github/chigusai_app62/build/macos/Build/Products/Debug/shared_preferences_foundation/shared_preferences_foundation.framework

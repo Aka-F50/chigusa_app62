@@ -20,10 +20,12 @@ class YushiPage extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 8),
         child: ListTile(
           onTap: () => Navigator.of(context).pushNamed(YushiDetailScreen.routeName, arguments: yushiDetailData),
-          leading: Text(
+          leading:
+           Text(
             yushiDetailData.startTime.getTimeAsString(),
             style: const TextStyle(fontSize: 20),
           ),
+          
           title: Text(
             yushiDetailData.title,
             style: const TextStyle(fontSize: 20),

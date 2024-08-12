@@ -10,9 +10,13 @@ class Zentai extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("全体結果")),
-body:const SingleChildScrollView(
+body: SingleChildScrollView(
   child: Column(
-    children:[SizedBox(height: 30),
+    children:[const SizedBox(height: 30),
+    Image.asset('assets/images/home/無題70_20240421101804.png'),
+    const SizedBox(height: 30),
+    const Text('グランプリ'),
+    const Text('展示、演劇、デコ、垂れ幕etc'),
    ],
   )),
     );

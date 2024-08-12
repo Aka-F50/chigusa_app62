@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/audio_session.build/module.modulemap \
+  /Users/akari.f/github/chigusai_app62/build/macos/Build/Intermediates.noindex/Pods.build/Debug/audio_session.build/module.modulemap \
   /Users/akari.f/.pub-cache/hosted/pub.dev/audio_session-0.1.16/macos/Classes/AudioSessionPlugin.m \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/audio_session/audio_session-prefix.pch \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/Target\ Support\ Files/audio_session/audio_session-prefix.pch \
   /Users/akari.f/.pub-cache/hosted/pub.dev/audio_session-0.1.16/macos/Classes/AudioSessionPlugin.h \
   /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
   /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \

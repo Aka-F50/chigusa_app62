@@ -3,11 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:chigusai_app/widgets/image_viewer.dart';
 
 import '../../../data/bunkasai/tenji_data.dart';
+import 'package:chigusai_app/providers/login_data_provider.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class TenjiDetailScreen extends StatelessWidget {
+class TenjiDetailScreen extends ConsumerStatefulWidget {
+  
   static const routeName = "/tenji-detail-screen";
-  const TenjiDetailScreen({super.key});
+  const TenjiDetailScreen({
+    Key? key,
+    
+  }) : super(key: key);
 
+@override
+_TenjiState createState() => _TenjiState();}
+ class _TenjiState extends ConsumerState<TenjiDetailScreen> {
   @override
   Widget build(BuildContext context) {
     final tenjiDetailData = ModalRoute.of(context)!.settings.arguments as TenjiDetailData;
@@ -29,9 +38,68 @@ class TenjiDetailScreen extends StatelessWidget {
               style: const TextStyle(fontSize: 18),
             ),
             //  FilledButton(onPressed: () {}, child: const Text("マップ")),
+            const Text(
+              '整理券',style: TextStyle(fontSize: 20),),
+            Text(
+              '$_counter',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.headline4,
+              
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                if (ref.watch(currentLoginStatusProvider) == CurrentLoginStatus.loggedInStaff )
+                ElevatedButton(
+                  onPressed: _decrementCounter,
+                  child: const Text('-'),
+                ),
+                const SizedBox(width: 16),
+                if (ref.watch(currentLoginStatusProvider) == CurrentLoginStatus.loggedInStaff )
+                ElevatedButton(
+                  onPressed: _resetCounter,
+                  child: const Text('Reset'),
+                ),
+                const SizedBox(width: 16),
+                if (ref.watch(currentLoginStatusProvider) == CurrentLoginStatus.loggedInStaff )
+                ElevatedButton(
+                  onPressed: _incrementCounter,
+                  child: const Text('+'),
+                ),
+              ],
+            ),
           ]),
+          
         ),
       ),
+      
+    
+      
     );
+
   }
-}
+  int _counter = 0;
+  
+  // providerのモデルで定義していたmethodをここかく。
+  void _incrementCounter() {
+    // 変更したらUIも変わる操作をsetStateで包む。
+    //(providerのchangeNotifier()みたいな役割)　
+    setState(() {
+      _counter++;
+    });
+  }
+  void _decrementCounter() {
+    setState(() {
+      _counter--;
+    });
+  }
+  void _resetCounter() {
+    setState(() {
+      _counter = 0;
+    });
+  }}
+  
+
+  //　状態を使いつつ組んだWidgetを返す(build関数)    
+  
+

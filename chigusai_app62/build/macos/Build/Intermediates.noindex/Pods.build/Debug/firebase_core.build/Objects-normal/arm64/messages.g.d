@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_core.build/module.modulemap \
+  /Users/akari.f/github/chigusai_app62/build/macos/Build/Intermediates.noindex/Pods.build/Debug/firebase_core.build/module.modulemap \
   /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_core-2.15.0/macos/Classes/messages.g.m \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/firebase_core/firebase_core-prefix.pch \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/Target\ Support\ Files/firebase_core/firebase_core-prefix.pch \
   /Users/akari.f/.pub-cache/hosted/pub.dev/firebase_core-2.15.0/macos/Classes/messages.g.h \
   /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
   /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \

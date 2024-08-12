@@ -57,7 +57,7 @@ const SizedBox(height: 15),
   const SizedBox(height: 15),
   _risuto(lavel: '展示賞', onPressed: () => Navigator.of(context).pushNamed(Tenzikitei8.routeName),),
   const SizedBox(height: 15),
-  _risuto(lavel: '展示班長の独り言', onPressed: () => Navigator.of(context).pushNamed(Tenzikitei9.routeName),),
+  _risuto(lavel: '展示班長のひとこと', onPressed: () => Navigator.of(context).pushNamed(Tenzikitei9.routeName),),
 
     ],),);
     

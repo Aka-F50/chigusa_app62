@@ -1,0 +1,1 @@
+ /Users/akari.f/github/chigusai_app62/.dart_tool/flutter_build/84007f38b668270f437376b024efaa71/native_assets.yaml: 

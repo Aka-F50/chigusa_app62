@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/akari.f/Downloads/otamesi/build/macos/Build/Intermediates.noindex/Pods.build/Debug/just_audio.build/module.modulemap \
+  /Users/akari.f/github/chigusai_app62/build/macos/Build/Intermediates.noindex/Pods.build/Debug/just_audio.build/module.modulemap \
   /Users/akari.f/.pub-cache/hosted/pub.dev/just_audio-0.9.34/macos/Classes/BetterEventChannel.m \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/just_audio/just_audio-prefix.pch \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/Target\ Support\ Files/just_audio/just_audio-prefix.pch \
   /Users/akari.f/.pub-cache/hosted/pub.dev/just_audio-0.9.34/macos/Classes/BetterEventChannel.h \
   /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap \
   /Users/akari.f/development/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h \

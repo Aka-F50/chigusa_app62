@@ -21,7 +21,7 @@ class ThemeSongManager {
 
   void _init() async {
     _audioPlayer = AudioPlayer();
-    await _audioPlayer.setAsset("assets/audio/theme_song.mp3");
+    await _audioPlayer.setAsset("assets/audio/temasong.mp3");
 
     _audioPlayer.playerStateStream.listen((playerState) {
       final isPlaying = playerState.playing;

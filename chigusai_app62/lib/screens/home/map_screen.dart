@@ -35,16 +35,7 @@ class MapScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const SizedBox(height: 20),
-                    const Text('    全体地図',
-                  
-                    style: TextStyle(
-                      fontSize: 20,
-                    ),
-                    textAlign:TextAlign.left,
-                    ),
-
-                    const SizedBox(height: 70),
-                  Image.asset('assets/images/map.jpg'),
+                  Image.asset('assets/images/home/map2.jpg'),
                   const SizedBox(height: 20),
                   
                  
@@ -53,8 +44,14 @@ class MapScreen extends StatelessWidget {
               Column(
                 children:[
                 const SizedBox(height: 20,),
-                
-                  Image.asset('assets/images/無題62.png'),
+                const Text('1F',
+                style: TextStyle(fontSize: 20),
+                textAlign: TextAlign.left,),
+                  Image.asset('assets/images/home/1F.jpg'),
+                  const Text('2F',
+                style: TextStyle(fontSize: 20),
+                textAlign: TextAlign.left,),
+                  Image.asset('assets/images/home/2F.jpg'),
                 ],
                   ),
                ),

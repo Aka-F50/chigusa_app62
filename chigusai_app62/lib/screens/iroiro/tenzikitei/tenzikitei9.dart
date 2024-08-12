@@ -49,7 +49,7 @@ class _Kitei1ScreenState extends State<Tenzikitei9> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("展示班長の独り言")),
+      appBar: AppBar(title: const Text("展示班長のひとこと")),
       body: file == null
           ? const Center(
               child: CircularProgressIndicator(),

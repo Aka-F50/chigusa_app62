@@ -67,7 +67,7 @@ class _TenjiPageState extends ConsumerState<TenjiPage> {
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
         child: Text(
-          '展示',
+          '展示\n（1日目10:30~16:40\n2日目9:30~16:00)',
           style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
         ),
       ),

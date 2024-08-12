@@ -11,47 +11,48 @@ class EventMerchandiseDetailData {
 }
 
 class SonotaData {
-  static const String saikoshiInfo = "お得な商品と縁日企画のゲームが楽しめる市が文化祭にて開催！準備から運営まで全て生徒が手掛けます。是非遊びに来てください！\n掘り出し物が見つかるかも！？";
+  static const String saikoshiInfo = "生徒の皆さんや先生方から頂いた、不要な商品を売り出しています。お得な商品が見つかるチャンス！是非あなただけの掘り出し物を見つけに来てください！";
+  static const String ennitiInfo = "サブストリートにて、老若男女楽しめるミニゲームを設置しています。HR制作の息抜きにどうぞ！";
   static const List<EventMerchandiseDetailData> eventMerchandiseList = [
     EventMerchandiseDetailData(
       title: "ラバーバンド",
       price: 250,
-      imgPath: "assets/images/bunkasai/sonota/band.jpg",
+      imgPath: "assets/images/bunkasai/sonota/rababan.jpg",
     ),
     EventMerchandiseDetailData(
-      title: "マフラータオル",
-      price: 700,
-      imgPath: "assets/images/bunkasai/sonota/towel.jpg",
+      title: "タオル",
+      price: 750,
+      imgPath: "assets/images/bunkasai/sonota/taoru.jpg",
     ),
     EventMerchandiseDetailData(
-      title: "ヘアクリップ",
+      title: "キーホルダー",
+      price: 600,
+      imgPath: "assets/images/bunkasai/sonota/kihoruda.jpg",
+    ),
+    EventMerchandiseDetailData(
+      title: "クリアファイル",
       price: 300,
-      imgPath: "assets/images/bunkasai/sonota/clip.jpg",
+      imgPath: "assets/images/bunkasai/sonota/fairu.jpg",
     ),
     EventMerchandiseDetailData(
-      title: "タトゥーシール",
-      price: 100,
-      imgPath: "assets/images/bunkasai/sonota/tattoo.jpg",
+      title: "ステッカー\n(4枚セット)",
+      price: 250,
+      imgPath: "assets/images/bunkasai/sonota/sute1.jpg",
     ),
     EventMerchandiseDetailData(
-      title: "ステッカー",
-      price: 100,
-      imgPath: "assets/images/bunkasai/sonota/sticker1.jpg",
+      title: "ステッカー\n(4枚セット)",
+      price: 250,
+      imgPath: "assets/images/bunkasai/sonota/sute2.jpg",
     ),
     EventMerchandiseDetailData(
-      title: "ステッカー",
-      price: 100,
-      imgPath: "assets/images/bunkasai/sonota/sticker2.jpg",
+      title: "ステッカー\n(4枚セット)",
+      price: 250,
+      imgPath: "assets/images/bunkasai/sonota/sute3.jpg",
     ),
     EventMerchandiseDetailData(
-      title: "ステッカー",
-      price: 100,
-      imgPath: "assets/images/bunkasai/sonota/sticker3.jpg",
-    ),
-    EventMerchandiseDetailData(
-      title: "ステッカー",
-      price: 100,
-      imgPath: "assets/images/bunkasai/sonota/sticker4.jpg",
+      title: "ステッカー\n(4枚セット)",
+      price: 250,
+      imgPath: "assets/images/bunkasai/sonota/sute4.jpg",
     )
   ];
   static const String chigumaInfo = "千種高校のマスコットキャラクターちぐま！\n杜若の帽子を被った彼は超キュート！そんなちぐまが文化祭に現れるかも…？！？\n会えたら是非声をかけてあげてね！！";

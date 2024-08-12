@@ -10,8 +10,23 @@ class Map2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("マップ")),
-body:const SingleChildScrollView(
-  child: Text(''),),
+body: SingleChildScrollView(
+  child: Column(
+    children: [
+      
+        Image.asset('assets/images/home/map2.jpg'),
+      const Text('1F',
+        style: TextStyle(fontSize: 20),
+        textAlign: TextAlign.center,),
+        Image.asset('assets/images/home/1F.jpg'),
+        const Text('2F',
+      style: TextStyle(fontSize: 20),
+        textAlign: TextAlign.center,),
+        Image.asset('assets/images/home/2F.jpg'),
+    
+    ],
+  ),
+),
     );
   }
 }

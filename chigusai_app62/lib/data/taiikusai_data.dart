@@ -18,63 +18,52 @@ class TaiikusaiData {
   static const List<TaiikusaiDetailData> taiikusaiDataList = [
     TaiikusaiDetailData(
       title: "開会式",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 8, minute: 45),
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 10, minute: 10),
     ),
     TaiikusaiDetailData(
-      title: "大玉転がし",
-      info: "招集時間:応援団演舞披露後すぐ\n招集場所:各ブロテント前\n    （トラック線内には侵入しない）\n※第一試合出場ブロは直接試合場所へ移動\n ※予選突破ブロは予選終了後各ブロテント前にて\n待機すること\n※アンカーの2人はハチマキ(貸し出し)を受け取り、着けること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 9, minute: 20),
-      showResult: true,
-    ),
-    TaiikusaiDetailData(
-      title: "玉入れ",
-      info: "招集時間:大玉第ニ試合終了時\n招集場所:各ブロテント前（トラック線内には侵入しない）\n※第一試合出場者は1人あたり2個玉を持って\n入場すること\n ※予選突破ブロは予選終了後各ブロテント前にて\n待機すること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 9, minute: 50),
-      showResult: true,
-    ),
-    TaiikusaiDetailData(
-      title: "棒引き",
-      info: "招集時間:玉入れ第二試合終了時\n招集場所:バレーコート\n※軍手持参必須(持参していない場合“失格”とする)\n※予選突破ブロは予選終了後各ブロテント前にて\n待機すること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 10, minute: 20),
-      showResult: true,
-    ),
-    TaiikusaiDetailData(
-      title: "騎馬戦",
-      info: "招集時間:棒引き第五試合終了時\n招集場所:バレーコート\n※騎手（上に乗る人）は軍手持参必須\n  （持参していない場合　“失格”　とする）\n※騎手（上に乗る人）は赤白帽着用必須\n   （こちらから貸し出しを行う）\n※予選突破ブロは予選終了後各ブロテント前にて\n待機すること",
+      title: "台風の目",
+      info: "《人数》\n各クラス　　4人1組×3ペア\n各ブロック　4人1組×9ペア\n※応援団団員と玉入れ出場者は出場不可\n　\n《ルール》\n・3ブロック対抗×3セット＋決勝 計4回\n・スタートの合図とともに４人1組で棒を持ち、周回コーンを回ってスタート位置まで戻ってくる\n・各試合1位のチームが決勝戦に進む。\n(決勝戦についても試合方法は同じ)",
       startTime: Time(day: GakusaiDay.taiikusai, hour: 10, minute: 50),
       showResult: true,
     ),
     TaiikusaiDetailData(
-      title: "障害物競走",
-      info: "招集時間:騎馬戦第五試合終了時\n招集場所:バレーコート\n※3周目（ラスト1周）を走るアンカー2人はたすき（貸し出し）をバトンとし着用して走ること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 11, minute: 25),
+      title: "玉入れ",
+      info: "《人数》\n各クラス　　前半7人　後半7人\n各ブロック　前半21人　後半21人\n※台風の目出場者と綱引き出場者は出場不可\n　\n《ルール》\n・3ブロック対抗×3セット＋決勝 計4回\n・試合は前後半に分けて行う。\n・玉を1人2個ずつ拾ってラインに並ぶ。\n・開始合図で中央のカゴに投げ入れ、終了合図で投げるのをやめる。\n・入った玉の個数が最も多いブロックが決勝戦に進む。\n・各ブロック 1 人、棒を使って他ブロックの邪魔をする",
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 11, minute: 20),
       showResult: true,
     ),
     TaiikusaiDetailData(
+      title: "綱引き",
+      info: "《人数》\n各クラス　　男子6人　女子7人\n各ブロック　男子18人　女子21人\n※玉入れ出場者は出場不可\n \n《ルール》\n・トーナメント8試合×男女それぞれ1トーナメント 計16試合\n・中央のマークから一定の距離まで綱を引き合う。\n・中央のマークを相手より自分の側に引き寄せた方の勝ち。",
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 11, minute: 50),
+      showResult: true,
+    ),
+    
+    TaiikusaiDetailData(
       title: "昼休憩",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 12),
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 12, minute: 30),
     ),
     TaiikusaiDetailData(
-      title: "マジクラ",
-      info: "招集時間:試合開始15分前\n招集場所:バレーコート\n※各部招集前に着替えを済ませ、必要物、バトンとなるものを確実に持ってくること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 12, minute: 55),
+      title: "マジクラ（マジなクラブ対抗）",
+      info: "部活動対抗ドッジボール\n \n《ルール》\n・男女それぞれトーナメントで行う。\n・スタート時の外野2人\n・ボールは２つ用いる。\n・試合終了時の外野の人数が少ないチームが勝利。\n・10m×12mのコートで行う。",
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 13, minute: 20),
       showResult: true,
     ),
     TaiikusaiDetailData(
       title: "ブロパフォ",
-      info: "招集時間:マジクラ第一試合開始時\n招集場所:バレーコート\n※各ブロック招集前に着替えを済ませ、必要物等を持ってくること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 13, minute: 15),
+      info: "",
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 14, minute: 00),
       showResult: true,
     ),
     TaiikusaiDetailData(
       title: "ブロリレ",
-      info: "招集時間:Fブロックブロパフォ終了時\n招集場所:バレーコート\n※バトン（貸し出し）を受け取り、走ること",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 13, minute: 45),
+      info: "《人数》\n各クラス　　男子2人　女子2人\n各ブロック　男子6人　女子6人\n\n《ルール》\n・すべてオープンコースで行う。\n・３ブロック同時×３試合 決勝戦あり 計４試合",
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 14, minute: 30),
       showResult: true,
     ),
     TaiikusaiDetailData(
       title: "閉会式",
-      startTime: Time(day: GakusaiDay.taiikusai, hour: 14, minute: 15),
+      startTime: Time(day: GakusaiDay.taiikusai, hour: 15, minute: 00),
     ),
   ];
 }

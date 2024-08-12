@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/gRPC-Core/third_party/re2/re2/parse.cc \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/gRPC-Core/third_party/re2/re2/parse.cc \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
   gRPC-Core/third_party/re2/util/util.h \
   gRPC-Core/third_party/re2/util/logging.h \
   gRPC-Core/third_party/re2/util/strutil.h \

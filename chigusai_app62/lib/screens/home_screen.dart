@@ -37,7 +37,10 @@ import 'taiikusai/result_screen.dart';
 import 'home/theme_song/theme_song_screen.dart';
 import 'taiikusai/update_result_screen.dart';
 import 'package:chigusai_app/screens/iroiro/zaregoto.dart';
-import 'iroiro/zentai.dart';
+//import 'iroiro/zentai.dart';
+import 'iroiro/chigusai.dart';
+import 'iroiro/aisatu.dart';
+import 'iroiro/yaku.dart';
 
 class HomeScreen extends ConsumerStatefulWidget{
   const HomeScreen({super.key});
@@ -204,7 +207,7 @@ Widget _outlindedbuttondesu({required String lavel,required IconData icon,requir
             children: [        
               CarouselSlider(
             items:  [
-               CarouselContainerbox(title: '千種祭',img: 'assets/images/無題62.png',onTap: () => ref.read(bottomNavigationProvider.notifier).set(1),),
+               CarouselContainerbox(title: '千種祭',img: 'assets/images/home/homeimage.jpg',onTap:() => Navigator.of(context).pushNamed(Chigusai.routeName),),
                CarouselContainerbox(title: '体育祭',img: 'assets/images/home/taiikusai.jpg',onTap:  () => ref.read(bottomNavigationProvider.notifier).set(1),),
                CarouselContainerbox(title: '文化祭',img: 'assets/images/home/bunkasai.jpg',onTap:  () => ref.read(bottomNavigationProvider.notifier).set(2),),
                CarouselContainerbox(title: '全校企画',img: 'assets/images/home/zenkou.jpg',onTap:  () => ref.read(bottomNavigationProvider.notifier).set(3),),
@@ -212,12 +215,12 @@ Widget _outlindedbuttondesu({required String lavel,required IconData icon,requir
             ],
 
             options: CarouselOptions(
-              height: 250, //高さ
+              height: 280, //高さ
               initialPage: 0, //最初に表示されるページ
               autoPlay: true,//自動でスライドしてくれるか
               viewportFraction: 0.95,//各カードの表示される範囲の割合
               enableInfiniteScroll: true,//最後のカードから最初のカードへの遷移
-              autoPlayInterval: const Duration(seconds: 5),//カードのインターバル
+              autoPlayInterval: const Duration(seconds: 8),//カードのインターバル
               autoPlayAnimationDuration: const Duration(milliseconds: 400),
                                             //スライドが始まって終わるまでの時間
               onPageChanged: (index, reason) {
@@ -269,7 +272,7 @@ Widget _outlindedbuttondesu({required String lavel,required IconData icon,requir
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   _outlindedbuttondesu(lavel: 'マップ', onPressed: () => Navigator.of(context).pushNamed(Map2.routeName), icon: Icons.map),
-                  _outlindedbuttondesu(lavel: '全体結果', onPressed:  () => Navigator.of(context).pushNamed(Zentai.routeName), icon: Icons.emoji_flags),  
+                  _outlindedbuttondesu(lavel: '全体結果', onPressed:  () => Navigator.of(context).pushNamed(ResultScreen.routeName), icon: Icons.emoji_flags),  
                   _outlindedbuttondesu(lavel: '戯言', onPressed: () => Navigator.of(context).pushNamed(Zaregoto.routeName),icon: Icons.record_voice_over), 
             ],),
 
@@ -281,7 +284,7 @@ Widget _outlindedbuttondesu({required String lavel,required IconData icon,requir
                   _outlindedbutton(lavel: '使い方\nガイド', onPressed: () => Navigator.of(context).pushNamed(Tukaikata.routeName),icon: Icons.question_mark ), 
                    
             ],),
-            const SizedBox(height: 20),
+            const SizedBox(height: 5),
             if (ref.watch(currentLoginStatusProvider) != CurrentLoginStatus.notLoggedIn )
             const SizedBox(height: 5),
               Row(
@@ -326,17 +329,17 @@ Widget _outlindedbuttondesu({required String lavel,required IconData icon,requir
                       onPressed: () => Navigator.of(context).pushNamed(ShowPRVideoScreen.routeName),
                     )*/
                     if (ref.watch(currentLoginStatusProvider) != CurrentLoginStatus.notLoggedIn )
-            const SizedBox(height: 20),
+            const SizedBox(height: 0),
 
               SizedBox(
-                    height: 180,
+                    height: 200,
                     child: ListView(
                         itemExtent: 300, //横幅
                         scrollDirection: Axis.horizontal, //横スクロール
                         padding: const EdgeInsets.only(left:5),
                         children:  [
-                          Menucard(title: '挨拶', img: 'assets/images/無題62.png', onTap:  () => Navigator.of(context).pushNamed(Gakusin.routeName)),
-                          Menucard(title: '15役', img: 'assets/images/home/15yaku.JPG', onTap:  () => Navigator.of(context).pushNamed(Gakusin.routeName),),
+                          Menucard(title: '挨拶', img: 'assets/images/home/S__15613976.jpg', onTap:  () => Navigator.of(context).pushNamed(Aisatu.routeName)),
+                          Menucard(title: '15役', img: 'assets/images/home/15yaku.JPG', onTap:  () => Navigator.of(context).pushNamed(Yaku.routeName),),
                           ]
                         ),),
             ]

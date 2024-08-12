@@ -1,10 +1,10 @@
 dependencies: \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/gRPC-Core/include/grpc/module.modulemap \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/gRPC-Core/third_party/upb/upb/json_encode.c \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/gRPC-Core/include/grpc/module.modulemap \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/gRPC-Core/third_party/upb/upb/json_encode.c \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
   gRPC-Core/third_party/upb/upb/json_encode.h \
   gRPC-Core/third_party/upb/upb/def.h \
-  /Users/akari.f/Downloads/otamesi/macos/Pods/gRPC-Core/src/core/ext/upb-generated/google/protobuf/descriptor.upb.h \
+  /Users/akari.f/github/chigusai_app62/macos/Pods/gRPC-Core/src/core/ext/upb-generated/google/protobuf/descriptor.upb.h \
   gRPC-Core/third_party/upb/upb/msg_internal.h \
   gRPC-Core/third_party/upb/upb/extension_registry.h \
   gRPC-Core/third_party/upb/upb/upb.h \

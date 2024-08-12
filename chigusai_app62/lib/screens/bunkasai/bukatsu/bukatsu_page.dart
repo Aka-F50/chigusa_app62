@@ -26,7 +26,7 @@ class BukatsuPage extends StatelessWidget {
       child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
         child: Text(
-          '部活',
+          '部活(昨年度)',
           style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
         ),
       ),

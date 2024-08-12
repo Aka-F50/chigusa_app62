@@ -10,11 +10,20 @@ class Tukaikata extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("使い方ガイド")),
-body:const SingleChildScrollView(
+body: SingleChildScrollView(
   child: Column(
-    children: [SizedBox(height: 30),
-    Text('     使い方ガイド',
-    style: TextStyle(fontSize: 20),),],
+    children: [
+      const SizedBox(height: 20,),
+    Image.asset('assets/images/home/gaido1.jpg'),
+    const Text('1'),
+   const SizedBox(height: 20,),
+Image.asset('assets/images/home/gaido2.jpg'),
+const Text('2'),
+const SizedBox(height: 20,),
+Image.asset('assets/images/home/gaido3.jpg'),
+const Text('3'),
+const SizedBox(height: 20,),
+    ]
   ),),
     );
   }

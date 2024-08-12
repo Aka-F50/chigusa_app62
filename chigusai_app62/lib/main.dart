@@ -1,3 +1,4 @@
+import 'package:chigusai_app/screens/iroiro/chigusai.dart';
 import 'package:chigusai_app/screens/iroiro/zentai.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -34,6 +35,7 @@ import 'screens/home/map_screen.dart';
 //import 'screens/home/pr_video/pr_video_screen.dart';
 import 'screens/home/schedule/schedule_screen.dart';
 import 'screens/home/theme_song/theme_song_screen.dart';
+import 'package:just_audio/just_audio.dart';
 //import 'screens/home/pr_video/show_pr_video_screen.dart';
 //bunkasai/
 import 'screens/bunkasai/tenji/tenji_detail_screen.dart';
@@ -63,6 +65,9 @@ import 'screens/shift/bunkasai_shift_screen.dart';
 import 'screens/iroiro/zaregoto.dart';
 import 'screens/iroiro/tukaikata.dart';
 import 'screens/home/map2.dart';
+import 'screens/iroiro/aisatu.dart';
+import 'screens/iroiro/yaku.dart';
+
 
 import 'screens/iroiro/kitei/kitei0.dart';
 import 'screens/iroiro/kitei/kitei.dart';
@@ -88,6 +93,7 @@ import 'screens/iroiro/tenzikitei/gakusinn/gakusin.dart';
 void main() async {
   _init();
   runApp(const ProviderScope(child: MyApp()));
+  
 }
 
 Future<void> _init() async {
@@ -96,7 +102,10 @@ Future<void> _init() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   NotificationSetup.fcmSetup();
+  await AudioPlayer.clearAssetCache();
 }
+
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -157,6 +166,10 @@ class MyApp extends StatelessWidget {
         Zaregoto.routeName: (ctx) => const Zaregoto(),
         Tukaikata.routeName:(ctx) => const Tukaikata(),
         Map2.routeName:(ctx) => const Map2(),
+        Chigusai.routeName:(ctx) => const Chigusai(),
+        Aisatu.routeName:(ctx) => const Aisatu(),
+        Yaku.routeName:(ctx) => const Yaku(),
+
 
         //これきもいから誰か何とかして/
         Kitei.routeName:(ctx) => const Kitei(),

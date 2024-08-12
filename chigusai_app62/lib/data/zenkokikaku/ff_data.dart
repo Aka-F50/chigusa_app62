@@ -9,11 +9,11 @@ class FFDetailData {
 
 class FFData {
   static const List<FFDetailData> ffDataList = [
-    FFDetailData(title: "FF開始挨拶、レク説明", startTime: Time(hour: 17, minute: 15, day: GakusaiDay.zenkokikaku)),
-    FFDetailData(title: "マイムマイム①", startTime: Time(hour: 17, minute: 22, day: GakusaiDay.zenkokikaku)),
-    FFDetailData(title: "マイムマイム②", startTime: Time(hour: 17, minute: 30, day: GakusaiDay.zenkokikaku)),
-    FFDetailData(title: "マイムマイム③", startTime: Time(hour: 17, minute: 37, day: GakusaiDay.zenkokikaku)),
-    FFDetailData(title: "挨拶、火文字", startTime: Time(hour: 17, minute: 45, day: GakusaiDay.zenkokikaku)),
-    FFDetailData(title: "打ち上げ花火", startTime: Time(hour: 18, minute: 20, day: GakusaiDay.zenkokikaku)),
+    FFDetailData(title: "思い出ムービー", startTime: Time(hour: 16, minute: 40, day: GakusaiDay.zenkokikaku)),
+    FFDetailData(title: "運動場へ移動", startTime: Time(hour: 17, minute: 00, day: GakusaiDay.zenkokikaku)),
+    FFDetailData(title: "千種生の主張", startTime: Time(hour: 17, minute: 10, day: GakusaiDay.zenkokikaku)),
+    FFDetailData(title: "火文字鑑賞", startTime: Time(hour: 17, minute: 40, day: GakusaiDay.zenkokikaku)),
+    FFDetailData(title: "退校開始", startTime: Time(hour: 17, minute: 50, day: GakusaiDay.zenkokikaku)),
+    FFDetailData(title: "完全退校", startTime: Time(hour: 18, minute: 00, day: GakusaiDay.zenkokikaku)),
   ];
 }
